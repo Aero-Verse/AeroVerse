@@ -26,11 +26,3 @@ Clone the repository and install dependencies:
 git clone https://github.com/username/weather-forecasting.git
 cd weather-forecasting
 pip install -r requirements.txt
-
-## Requirements:
-Python 3.8+
-XGBoost
-Pandas
-NumPy
-Matplotlib / Plotly (for visualization)
-Flask or Streamlit (for interactive dashboard)
