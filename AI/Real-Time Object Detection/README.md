@@ -1,1 +1,3 @@
-Automated Real-Time Object Detection on Runways
+Project Overview
+
+This project implements real-time object detection on airport runways using the YOLO model to enhance aviation safety and operational efficiency. The system automatically identifies aircraft, vehicles, barriers, bird strikes, and other potential hazards on runways, providing early alerts to reduce accident risks during takeoff and landing. By leveraging AI-powered detection, airports can minimize delays, optimize resource allocation, reduce operational costs, and improve decision-making in high-pressure environments. Additionally, the solution supports training applications in mixed reality, enabling pilots and air traffic controllers to safely practice responses to runway hazards and emergencies while improving situational awareness.
