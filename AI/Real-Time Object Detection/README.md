@@ -17,12 +17,4 @@ The system identifies aircraft, vehicles, barriers, birds, and other potential h
 ## Benefits
 - **Improved Situational Awareness:** Detects hazards before accidents occur.  
 - **Operational Efficiency:** Reduces delays and enhances decision-making.  
-- **Scalable:** Can be integrated with airport monitoring systems.  
-
-## Installation
-Clone the repository and install YOLO dependencies:
-
-```bash
-git clone https://github.com/username/yolo-runway-detection.git
-cd yolo-runway-detection
-pip install -r requirements.txt
+- **Scalable:** Can be integrated with airport monitoring systems.
