@@ -1,0 +1,15 @@
+project/
+│
+├── main.py                  
+├── requirements.txt        
+├── modules/
+│   ├── all_pred/            
+│   │   ├── __init__.py
+│   │   └── api.py
+│   ├── Weather3/     
+│   │   ├── __init__.py
+│   │   └── api.py
+│   └── yoloo/               
+│       ├── __init__.py
+│       └── api.py
+└── static/ yolov8n.pt                
