@@ -31,11 +31,5 @@ Real-Time Awareness: Can be integrated with airport systems for immediate decisi
 
 Operational Efficiency: Assists pilots and air traffic controllers in planning during low-visibility situations.
 
-Installation
 
-Clone the repository and install dependencies:
-
-git clone https://github.com/username/weather-classification.git
-cd weather-classification
-pip install -r requirements.txt
 big project link https://drive.google.com/file/d/1zjSgLe0BtEaM15L3sNbqL35z8pT-hMKL/view?usp=drive_link
