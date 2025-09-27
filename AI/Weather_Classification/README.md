@@ -1,81 +1,41 @@
-Weather Image Classification using EfficientNetB0
-📌 Project Overview
+Introduction
 
-This project is a part of the Mixed Reality & AI-Based Airport Navigation System.
-It focuses on classifying sky images into different weather conditions using a deep learning model based on EfficientNetB0.
-The goal is to support aviation safety by providing real-time weather awareness that can be integrated into airport navigation and decision-making systems.
+This project implements weather image classification using EfficientNetB0.
+It classifies sky images into multiple categories (e.g., Clear, Cloudy, Foggy, Rainy, Snowy) to support flight safety and airport operations.
 
-🎯 Objectives
+Methodology
 
-Build a CNN-based model to classify weather images (e.g., Clear, Cloudy, Foggy, Rainy, Snowy).
+Dataset of sky images with 11 weather classes.
 
-Reduce overfitting using data augmentation, dropout, and L2 regularization.
+Preprocessing: image resizing (224x224), normalization, and data augmentation.
 
-Fine-tune the EfficientNetB0 model for better accuracy.
+Model: EfficientNetB0 pre-trained on ImageNet, fine-tuned on weather dataset.
 
-Provide predictions that can be integrated with airport safety and MR visualization systems.
+Techniques used to reduce overfitting: Dropout and L2 regularization.
 
-🛠 Tech Stack
+Training with Adam optimizer, categorical crossentropy, and callbacks (EarlyStopping, ModelCheckpoint).
 
-Programming Language: Python
+Results
 
-Frameworks & Libraries: TensorFlow, Keras, NumPy, Pandas, Matplotlib
+Achieved high classification accuracy across all 11 classes.
 
-Model: EfficientNetB0 (pre-trained on ImageNet, fine-tuned on weather dataset)
+Generated confusion matrix and classification report to validate performance.
 
-Tools: Jupyter Notebook / Google Colab
+Model is efficient and suitable for real-time weather classification in airport systems.
 
-📂 Dataset
+Benefits
 
-The dataset contains sky images categorized into 11 weather classes (as provided in the original dataset).
+Enhanced Safety: Provides instant recognition of adverse weather conditions.
 
-Images were preprocessed (resizing, normalization) and augmented (rotation, flipping, zoom) to improve model generalization.
+Real-Time Awareness: Can be integrated with airport systems for immediate decision support.
 
-🔑 Methodology
+Operational Efficiency: Assists pilots and air traffic controllers in planning during low-visibility situations.
 
-Data Preprocessing
+Installation
 
-Resize images to fit EfficientNetB0 input (224x224).
+Clone the repository and install dependencies:
 
-Normalize pixel values.
-
-Apply data augmentation to increase dataset diversity.
-
-Model Development
-
-Load EfficientNetB0 with pre-trained ImageNet weights.
-
-Add custom classification head with Dense layers + Dropout.
-
-Use L2 regularization to minimize overfitting.
-
-Training
-
-Optimizer: Adam
-
-Loss Function: Categorical Crossentropy
-
-Metrics: Accuracy
-
-Callbacks: EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
-
-Evaluation
-
-Evaluate on test set.
-
-Generate confusion matrix & classification report.
-
-🚀 Results
-
-The model achieved high accuracy in classifying different weather types.
-
-EfficientNetB0 proved effective due to its balance of accuracy and computational efficiency.
-
-📌 Future Work
-
-Integrate with real-time camera feeds from airports.
-
-Deploy as a REST API for live weather classification.
-
-Combine predictions with weather forecasting models (XGBoost + OpenWeather API) for more robust aviation safety solutions.
+git clone https://github.com/username/weather-classification.git
+cd weather-classification
+pip install -r requirements.txt
 big project link https://drive.google.com/file/d/1zjSgLe0BtEaM15L3sNbqL35z8pT-hMKL/view?usp=drive_link
