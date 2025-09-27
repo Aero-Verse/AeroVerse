@@ -17,12 +17,4 @@ It predicts short-term weather conditions to improve flight safety and planning.
 ## Benefits
 - **Improved Decision-Making:** Real-time alerts help quick responses.  
 - **Safe Training:** Mixed reality scenarios for practicing emergency handling.  
-- **Operational Efficiency:** Reduces delays and improves safety planning.  
-
-## Installation
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/username/weather-forecasting.git
-cd weather-forecasting
-pip install -r requirements.txt
+- **Operational Efficiency:** Reduces delays and improves safety planning.
