@@ -78,3 +78,4 @@ Integrate with real-time camera feeds from airports.
 Deploy as a REST API for live weather classification.
 
 Combine predictions with weather forecasting models (XGBoost + OpenWeather API) for more robust aviation safety solutions.
+big project link https://drive.google.com/file/d/1zjSgLe0BtEaM15L3sNbqL35z8pT-hMKL/view?usp=drive_link
